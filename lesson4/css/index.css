@@ -1,0 +1,38 @@
+p {
+  color: rgb(18, 119, 106);
+}
+
+header {
+  background-color: rgb(42, 165, 159);
+  text-align: center;
+}
+h1 {
+  background-color: coral;
+  height: 50px;
+  text-align: center;
+}
+main p {
+  background-color: fuchsia;
+}
+ul {
+  background-color: gray;
+}
+section {
+  color: greenyellow;
+}
+.highlight {
+  color: rgb(68, 8, 41);
+  height: 100px;
+  width: 100px;
+}
+.myfoto img {
+  height: 500px;
+  width: auto;
+  margin right:100px;
+  
+}
+
+.cool {
+display: flex;
+
+}
