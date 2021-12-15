@@ -51,7 +51,7 @@ body {
   list-style: none;
 }
 
-.list {
+.item {
   padding: 12px 12px 14px;
 }
 
@@ -72,7 +72,7 @@ input:checked ~ label {
   text-decoration: line-through;
 }
 
-.list {
+.item {
   padding-top: 10px;
   padding-bottom: 12px;
   width: 534px;
@@ -84,11 +84,11 @@ input:checked ~ label {
   background-color: #88839e;
 }
 
-.list:nth-child(even) {
+.item:nth-child(even) {
   background-color: #7a7593;
 }
 
-.list:hover {
+.item:hover {
   background-color: #625e77;
   border-top: 3px solid white;
   border-bottom: 3px solid white;
@@ -100,7 +100,7 @@ input:checked ~ label {
   style: normal;
   size: 18px;
 }
-.list:active {
+.item:active {
   background-color: #ff8984;
   text-decoration: gray line-through;
 }
