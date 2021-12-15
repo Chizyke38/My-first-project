@@ -79,8 +79,8 @@ input:checked ~ label {
   left: 129px;
   top: 102px;
   padding-left: 12px;
-  border-top: 2px solid transparent;
-  border-bottom: 2px solid transparent;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
   background-color: #88839e;
 }
 
