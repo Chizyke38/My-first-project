@@ -1,0 +1,485 @@
+.page-padding {
+  padding: 0 330px;
+}
+
+.bhromaon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../foto/nature.png");
+  height: calc(100vh - 83px);
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bhromaon_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bhromaon_content_title {
+  font-family: Josefin Sans;
+  text-align: center;
+  margin-bottom: 11px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.bhromaon_content_text {
+  font-family: Josefin Sans;
+  text-align: center;
+  height: 26px;
+  margin-bottom: 48px;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+  color: #ffffff;
+}
+
+.bhromaon_content_search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bhromaon_content_search_button {
+  font-family: Aleo;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  background: #5474fd;
+  border: 2px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 21px 17px 18px 23px;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.bhromaon_content_search_button img {
+  padding-left: 15px;
+}
+
+.bhromaon_content_search_input {
+  font-family: Josefin Sans;
+  padding: 19px 113px 18px;
+  letter-spacing: 2.8px;
+  width: 503px;
+  font-size: 14px;
+  text-align: center;
+  color: #999999;
+}
+
+.bhromaon_scroll {
+  font-family: Josefin Sans;
+  color: #ffffff;
+  letter-spacing: 2.8px;
+  font-size: 14px;
+  margin-top: 107px;
+}
+
+.header {
+  background: #5474fd;
+  width: 100%;
+}
+
+.header_container {
+  height: 83px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header_container_title {
+  font-family: Josefin Sans;
+  color: #ffffff;
+  letter-spacing: 2.4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  width: 186px;
+}
+
+.header_container_nav_search {
+  font-family: Aleo;
+  font-size: 14px;
+  margin-right: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: cover;
+  background-image: url("../foto/second.jpg ");
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 110px;
+}
+
+.main_info_comment {
+  margin-bottom: 50px;
+  font-family: Aleo;
+  font-size: 36px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.main_info_text {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 560px;
+  letter-spacing: 1.6px;
+  color: #e8e8e8;
+  margin-bottom: 45px;
+}
+
+.main_info_btn {
+  width: 228px;
+  height: 63px;
+  background: #5474fd;
+}
+
+.main_info_btn_text {
+  letter-spacing: 1.2px;
+  height: 26px;
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.main_info_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main_info_images_nature {
+  margin-bottom: 10px;
+}
+
+.main_info_images_nature--second {
+  margin-left: 150px;
+}
+
+.container {
+  background-image: url("../foto/brown.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-size: cover;
+  height: 340px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container_label_searching {
+  margin-bottom: 38px;
+  margin-left: 55px;
+}
+
+.container_label_search {
+  font-family: Aleo;
+  color: #e8e8e8;
+  font-size: 36px;
+}
+
+.container_label_checked {
+  margin-bottom: 38px;
+  margin-left: 55px;
+}
+
+.container_label_title {
+  font-family: Aleo;
+  color: #e8e8e8;
+  font-size: 36px;
+}
+
+.container_label_like {
+  margin-bottom: 38px;
+  margin-left: 55px;
+}
+
+.container_label_third {
+  font-family: Aleo;
+  color: #e8e8e8;
+  font-size: 36px;
+}
+
+.content {
+  background-image: url("../foto/house.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.content_inform {
+  background: #232323;
+  opacity: 0.9;
+  width: 543px;
+  height: 374px;
+  margin-bottom: 99px;
+  margin-left: 328px;
+}
+
+.content_inform_spain {
+  font-family: Josefin Sans;
+  color: #e8e8e8;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 49px 431px 23px 32px;
+}
+
+.content_inform_madrid {
+  font-family: Josefin Sans;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 23px 270px 13px 32px;
+}
+
+.content_inform_comment {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  color: #e8e8e8;
+  line-height: 26px;
+  padding: 13px 3px 46px 32px;
+}
+
+.content_inform_btn {
+  font-family: Aleo;
+  letter-spacing: 1.2px;
+  width: 228px;
+  height: 63px;
+  font-size: 16px;
+  margin-left: 30px;
+  background: linear-gradient(73deg, #d7b74a 0%, #19948c 30%, rgba(209, 69, 100, 0.80716) 100%);
+}
+
+.block {
+  background-image: url("../foto/naturefoto.jpg");
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: cover;
+}
+
+.block_inform {
+  background: #d7b74a;
+  background: -webkit-gradient(linear, left bottom, left top, from(#d7b74a), color-stop(2%, #696862), to(rgba(209, 69, 100, 0.80716)));
+  background: linear-gradient(0deg, #d7b74a 0%, #696862 2%, rgba(209, 69, 100, 0.80716) 100%);
+  width: 543px;
+  height: 374px;
+  opacity: 0.9;
+  margin: 227px 0px 99px 898px;
+}
+
+.block_inform_spain {
+  font-family: Josefin Sans;
+  color: #e8e8e8;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 49px 431px 23px 32px;
+}
+
+.block_inform_madrid {
+  font-family: Josefin Sans;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 23px 270px 13px 32px;
+}
+
+.block_inform_about {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  color: #e8e8e8;
+  line-height: 26px;
+  padding: 13px 3px 46px 32px;
+}
+
+.block_inform_btn {
+  font-family: Aleo;
+  letter-spacing: 1.2px;
+  width: 228px;
+  height: 63px;
+  font-size: 16px;
+  margin-left: 30px;
+  background: #8e9f54;
+  background: linear-gradient(52deg, #8e9f54 0%, rgba(51, 86, 142, 0.891194) 36%, #484ebc 74%, rgba(209, 69, 100, 0.80716) 100%);
+}
+
+.section {
+  background-image: url("../foto/tourist.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background-size: cover;
+}
+
+.section_motto {
+  height: 26px;
+  font-family: Aleo;
+  font-size: 36px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 91px;
+}
+
+.section_motto_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section_motto_name {
+  background: #333333;
+  width: 668px;
+  height: 287px;
+}
+
+.section_content {
+  width: 668px;
+  height: 287px;
+  background: #333333;
+}
+
+.section_content_title {
+  margin-top: 49px;
+  margin-left: 62px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #fefefe;
+}
+
+.section_content_text {
+  margin-top: 49px;
+  margin-left: 62px;
+  width: 581px;
+  height: 165px;
+  font-family: Josefin Sans;
+  font-size: 16px;
+  letter-spacing: 2.52px;
+  color: #fefefe;
+}
+
+.footer {
+  background-image: url("../foto/fonbrown.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 271px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_container {
+  font-family: Josefin Sans;
+  color: #ffffff;
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.footer_container_text {
+  color: #ffffff;
+  letter-spacing: 1.6px;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.footer_container_nav_links {
+  margin-left: 15px;
+  margin-right: 15px;
+}
