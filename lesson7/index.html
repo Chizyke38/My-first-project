@@ -41,38 +41,129 @@
           <input
             class="header_search"
             type="text"
-            placeholder="Search
-        Products,categories..."
+            placeholder="Search Products,categories..."
           />
         </div>
         <div class="header_search-icon">
-          <img src="./foto/icon1.jpg" alt="number1" />
+          <img class="icon" src="./foto/icon1.jpg" alt="number1" />
           <img src="./foto/icon2.jpg" alt="number2" />
         </div>
       </div>
     </header>
     <div class="header_menu">
-      <div class="menu">
-        <p class="Products selling">Products selling</p>
-        <p class="menu-food">Bakery</p>
-        <p class="menu-food">Fruit and vegetables</p>
-        <p class="menu-food">Meat and fish</p>
-        <p class="menu-food">Drinks</p>
-        <p class="menu-food">Kitchen</p>
-        <p class="menu-food">Special nutrition</p>
-        <p class="menu-food">Baby</p>
-        <p class="menu-food">Pharmacy</p>
-      </div>
+      <select class="block_select" id="favorite color" name="favoritecolor">
+        <option value="bakery">Bakery</option>
+      </select>
+
+      <select class="block_select" id="favorite color" name="favoritecolor">
+        <option value="fruit-and-vegetables">Fruit and vegetables</option>
+      </select>
+
+      <select class="block_select" id="favorite color" name="favoritecolor">
+        <option value="meat-and-fish">Meat and fish</option>
+      </select>
+
+      <select class="block_select" id="favorite color" name="favoritecolor">
+        <option value="drinks">Drinks</option>
+      </select>
+
+      <select class="block_select" id="favorite color" name="favoritecolor">
+        <option value="kitchen">Kitchen</option>
+      </select>
+
+      <select class="block_select" id="favorite color" name="favoritecolor">
+        <option value="special-nutrition">Special nutrition</option>
+      </select>
+
+      <select class="block_select" id="favorite color" name="favoritecolor">
+        <option value="baby">Baby</option>
+      </select>
+
+      <select class="block_select" id="favorite color" name="favoritecolor">
+        <option value="pharmacy">Pharmacy</option>
+      </select>
     </div>
     <div class="other-menu_body">
-      <div class="Category-menu">Category menu</div>
-      <div class="menu-dishes"></div>
-      <p class="menu-price">Bakery</p>
-      <p class="menu-price">Fruit-vegetables</p>
-      <p class="menu-price">Meat and fish</p>
-      <p class="menu-price">Drinks</p>
-      <p class="menu-price">Kitchen</p>
+      <div class="Category-menu">
+        <p class="category_menu_label">Category menu</p>
+        <div class="menu-dishes">
+          <p class="menu-price">Bakery</p>
+          <p class="menu-price">Fruit-vegetables</p>
+          <p class="menu-price">Meat and fish</p>
+          <p class="menu-price">Drinks</p>
+          <p class="menu-price">Kitchen</p>
+        </div>
+        <button class="More_category">More Categories ></button>
+      </div>
+      <div class="important_block_image">
+        <div class="block_banner_image">
+          <img src="./foto/Banner.jpg" alt="first-banner" />
+        </div>
+        <div class="block_banner_image2">
+          <img src="./foto/banner2.jpg" alt="second-banner" />
+        </div>
+      </div>
     </div>
-    <div class="cards"></div>
+
+    <div class="body_block_cards">
+      <div class="nav_body_card">
+        <p class="best_selling_products">Best selling products</p>
+        <p class="menu-block">Kitchen</p>
+        <p class="menu-block">Meat-and-fish</p>
+        <p class="menu-block">Speial nutrition</p>
+        <p class="menu-block">Pharmacy</p>
+        <p class="menu-block">Baby</p>
+        <button class="More_products_btn">More products ></button>
+      </div>
+
+      <div class="card_block_menu">
+        <div class="body_block_card">
+          <img
+            class="card_block_menu_image"
+            src="./foto/images.jpg"
+            alt="empty"
+          />
+          <p class="product-title">Product Title</p>
+          <p class="product-title-menu">
+            Space for a small product description
+          </p>
+          <div class="block_menu_title">
+            <p class="product_title_menu_card">1.48 USD</p>
+            <button class="buy_btn">Buy now</button>
+          </div>
+        </div>
+        <div class="body_block_card">
+          <img
+            class="card_block_menu_image"
+            src="./foto/images.jpg"
+            alt="empty"
+          />
+          <p class="product-title">Product Title</p>
+          <p class="product-title-menu">
+            Space for a small product description
+          </p>
+          <div class="block_menu_title">
+            <p class="product_title_menu_card">0.28USD</p>
+            <button class="buy_btn">Buy now</button>
+          </div>
+        </div>
+        <div class="body_block_card">
+          <img
+            class="card_block_menu_image"
+            src="./foto/images.jpg"
+            alt="empty"
+          />
+          <p class="product-title">Product Title</p>
+          <p class="product-title-menu">
+            Space for a small product description
+          </p>
+          <div class="block_menu_title">
+            <p class="product_title_menu_card">1.12USD</p>
+            <button class="buy_btn">Buy now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="anime"></div>
   </body>
 </html>
