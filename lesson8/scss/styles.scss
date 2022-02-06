@@ -1,0 +1,398 @@
+.page-padding {
+  padding: 0 330px;
+}
+
+.bhromaon {
+  display: flex;
+  background-image: url("../foto/nature.png");
+  height: calc(100vh - 83px);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  &_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_title {
+      font-family: Josefin Sans;
+      text-align: center;
+      margin-bottom: 11px;
+      font-size: 48px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    &_text {
+      font-family: Josefin Sans;
+      text-align: center;
+      height: 26px;
+      margin-bottom: 48px;
+      font-size: 22px;
+      line-height: 26px;
+      letter-spacing: 6.82px;
+      color: #ffffff;
+    }
+    &_search {
+      display: flex;
+      &_button {
+        font-family: Aleo;
+        display: flex;
+        color: #ffffff;
+        background: #5474fd;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        padding: 21px 17px 18px 23px;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        img {
+          padding-left: 15px;
+        }
+      }
+
+      &_input {
+        font-family: Josefin Sans;
+        padding: 19px 113px 18px;
+        letter-spacing: 2.8px;
+        width: 503px;
+        font-size: 14px;
+        text-align: center;
+        color: #999999;
+      }
+    }
+  }
+  &_scroll {
+    font-family: Josefin Sans;
+    color: #ffffff;
+    letter-spacing: 2.8px;
+    font-size: 14px;
+    margin-top: 107px;
+  }
+}
+
+.header {
+  background: #5474fd;
+  width: 100%;
+  &_container {
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_title {
+      font-family: Josefin Sans;
+      color: #ffffff;
+      letter-spacing: 2.4px;
+      align-items: center;
+      font-size: 24px;
+      width: 186px;
+    }
+    &_nav {
+      &_search {
+        font-family: Aleo;
+        font-size: 14px;
+        margin-right: 12px;
+        color: #ffffff;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("../foto/second.jpg ");
+  align-items: center;
+
+  &_info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 110px;
+
+    &_comment {
+      margin-bottom: 50px;
+      font-family: Aleo;
+      font-size: 36px;
+      line-height: 26px;
+      color: #ffffff;
+    }
+    &_text {
+      font-family: Josefin Sans;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      width: 560px;
+      letter-spacing: 1.6px;
+      color: #e8e8e8;
+      margin-bottom: 45px;
+    }
+    &_btn {
+      width: 228px;
+      height: 63px;
+      background: #5474fd;
+      &_text {
+        letter-spacing: 1.2px;
+        height: 26px;
+        font-family: Aleo;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+
+    &_images {
+      display: flex;
+      flex-direction: column;
+      &_nature {
+        margin-bottom: 10px;
+
+        &--second {
+          margin-left: 150px;
+        }
+      }
+    }
+  }
+}
+
+.container {
+  background-image: url("../foto/brown.jpg");
+  display: flex;
+  justify-content: space-around;
+  background-size: cover;
+  height: 340px;
+  align-items: center;
+  &_label {
+    &_searching {
+      margin-bottom: 38px;
+      margin-left: 55px;
+    }
+    &_search {
+      font-family: Aleo;
+      color: #e8e8e8;
+      font-size: 36px;
+    }
+    &_checked {
+      margin-bottom: 38px;
+      margin-left: 55px;
+    }
+    &_title {
+      font-family: Aleo;
+      color: #e8e8e8;
+      font-size: 36px;
+    }
+    &_like {
+      margin-bottom: 38px;
+      margin-left: 55px;
+    }
+    &_third {
+      font-family: Aleo;
+      color: #e8e8e8;
+      font-size: 36px;
+    }
+  }
+}
+
+.content {
+  background-image: url("../foto/house.jpg");
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  align-items: flex-end;
+
+  &_inform {
+    background: #232323;
+    opacity: 0.9;
+    width: 543px;
+    height: 374px;
+    margin-bottom: 99px;
+    margin-left: 328px;
+
+    &_spain {
+      font-family: Josefin Sans;
+      color: #e8e8e8;
+      letter-spacing: 1.5px;
+      font-size: 20px;
+      line-height: 26px;
+      padding: 49px 431px 23px 32px;
+    }
+    &_madrid {
+      font-family: Josefin Sans;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 23px 270px 13px 32px;
+    }
+    &_comment {
+      font-family: Josefin Sans;
+      font-size: 16px;
+      color: #e8e8e8;
+      line-height: 26px;
+      padding: 13px 3px 46px 32px;
+    }
+    &_btn {
+      font-family: Aleo;
+      letter-spacing: 1.2px;
+      width: 228px;
+      height: 63px;
+      font-size: 16px;
+      margin-left: 30px;
+      background: linear-gradient(
+        73deg,
+        rgba(215, 183, 74, 1) 0%,
+        rgba(25, 148, 140, 1) 30%,
+        rgba(209, 69, 100, 0.8071603641456583) 100%
+      );
+    }
+  }
+}
+
+.block {
+  background-image: url("../foto/naturefoto.jpg");
+  height: 700px;
+  display: flex;
+  background-size: cover;
+  justify-content: flex-end;
+  align-items: center;
+
+  &_inform {
+    background: rgb(215, 183, 74);
+    background: linear-gradient(
+      0deg,
+      rgba(215, 183, 74, 1) 0%,
+      rgba(105, 104, 98, 1) 2%,
+      rgba(209, 69, 100, 0.8071603641456583) 100%
+    );
+    width: 543px;
+    height: 374px;
+    opacity: 0.9;
+
+    &_spain {
+      font-family: Josefin Sans;
+      color: #e8e8e8;
+      letter-spacing: 1.5px;
+      font-size: 20px;
+      line-height: 26px;
+      padding: 49px 431px 23px 32px;
+    }
+    &_madrid {
+      font-family: Josefin Sans;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 23px 270px 13px 32px;
+    }
+    &_about {
+      font-family: Josefin Sans;
+      font-size: 16px;
+      color: #e8e8e8;
+      line-height: 26px;
+      padding: 13px 3px 46px 32px;
+    }
+    &_btn {
+      font-family: Aleo;
+      letter-spacing: 1.2px;
+      width: 228px;
+      height: 63px;
+      font-size: 16px;
+      margin-left: 30px;
+      background: rgb(142, 159, 84);
+      background: linear-gradient(
+        52deg,
+        rgba(142, 159, 84, 1) 0%,
+        rgba(51, 86, 142, 0.8911939775910365) 36%,
+        rgba(72, 78, 188, 1) 74%,
+        rgba(209, 69, 100, 0.8071603641456583) 100%
+      );
+    }
+  }
+}
+
+.section {
+  background-image: url("../foto/tourist.jpg");
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-size: cover;
+  &_motto {
+    height: 26px;
+    font-family: Aleo;
+    font-size: 36px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 91px;
+    &_group {
+      display: flex;
+      justify-content: center;
+    }
+
+    &_name {
+      background: #333333;
+      width: 668px;
+      height: 287px;
+    }
+  }
+  &_content {
+    width: 668px;
+    height: 287px;
+    background: #333333;
+    &_title {
+      margin-top: 49px;
+      margin-left: 62px;
+      font-family: Josefin Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 26px;
+      text-transform: uppercase;
+      color: #fefefe;
+    }
+    &_text {
+      margin-top: 49px;
+      margin-left: 62px;
+      width: 581px;
+      height: 165px;
+      font-family: Josefin Sans;
+      font-size: 16px;
+      letter-spacing: 2.52px;
+      color: #fefefe;
+    }
+  }
+}
+
+.footer {
+  background-image: url("../foto/fonbrown.jpg");
+  display: flex;
+  height: 271px;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  align-items: center;
+  &_container {
+    font-family: Josefin Sans;
+    color: #ffffff;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 8px;
+    &_text {
+      color: #ffffff;
+      letter-spacing: 1.6px;
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 16px;
+    }
+    &_nav {
+      &_links {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+    }
+  }
+}
